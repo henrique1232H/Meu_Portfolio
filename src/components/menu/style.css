@@ -1,0 +1,23 @@
+
+aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 3rem;
+}
+
+ul li {
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}

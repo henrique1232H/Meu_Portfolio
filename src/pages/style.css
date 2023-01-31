@@ -1,0 +1,14 @@
+
+#main {
+    height: 100vh;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    padding: 0 3rem;
+}
+
+#port {
+    height: 100vh;
+    background: rgb(196, 9, 225);
+
+    padding: 0 3rem;
+}

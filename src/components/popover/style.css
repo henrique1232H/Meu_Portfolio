@@ -1,0 +1,68 @@
+.trigger {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.content {
+    height: 50rem;
+    width: 50rem;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 1rem 2rem;
+}
+
+
+.popoverMain {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.close {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.popoverBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popoverBody img {
+    height: 15rem;
+    padding: 0.1rem;
+    border: 3px solid rgb(0, 206, 0);
+    border-radius: 10rem;
+}
+
+.popoverBody p {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+.popoverSocial {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 1rem;
+}
+
+
+
+.socialFlex a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top:2rem;
+}

@@ -1,0 +1,41 @@
+
+.mainGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+   
+}
+
+.mainText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 8em;
+    line-height: 4rem;
+}
+
+.mainText h1 {
+    font-size: 4rem;
+    color: #fff;
+}
+
+.mainText p {
+    font-size: 3rem;
+}
+
+.mainText button {
+    margin-top: 1rem;
+    width: 50%;
+    border: none;
+    background: #A804FF;
+    font-weight: 200;
+    padding: 1rem;
+    border: 1px solid #9914e0;
+    color: rgba(255, 255, 255, 0.867);
+    border-radius: 50rem;
+    cursor: pointer;
+}
+
+figure img {
+   border-radius: 30% 70% 62% 38% / 30% 21% 79% 70% 
+}
