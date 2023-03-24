@@ -10,7 +10,7 @@ export function Menu() {
 
             <nav>
                 <ul>
-                    <li> <a href="#main">Portfolio</a></li>
+                    <li> </li>
                     <li> <a href="">Sobre</a></li>
                     <li> <PopoverMenu /> </li>
                 </ul>

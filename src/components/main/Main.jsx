@@ -1,5 +1,6 @@
 import "./style.css"
 import { useState, useEffect } from "react"
+import { ArrowLeft, ArrowRight } from "phosphor-react"
 
 
 
@@ -38,7 +39,7 @@ export function Main() {
                 <h1>Bem Vindos ao meu Portfolio</h1>
                 <p>Vamos conhecer meus projeto</p>
 
-                <button>Vamos lá</button>
+                <button>Vamos lá <ArrowRight size={30} color="#fff" /></button>
 
             </div>
 
